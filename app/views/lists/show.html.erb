@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @list.nombre %>
+</p>
+
+<p>
+  <strong>Curso:</strong>
+  <%= @list.curso %>
+</p>
+
+<p>
+  <strong>Asignatura:</strong>
+  <%= @list.asignatura %>
+</p>
+
+<p>
+  <strong>Calificacion:</strong>
+  <%= @list.calificacion %>
+</p>
+
+<%= link_to 'Edit', edit_list_path(@list) %> |
+<%= link_to 'Back', lists_path %>
